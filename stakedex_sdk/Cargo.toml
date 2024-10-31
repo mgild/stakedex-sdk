@@ -29,3 +29,7 @@ bincode = { workspace = true }
 
 [dev-dependencies]
 solana-client = { workspace = true }
+
+
+[lib]
+crate-type = ["staticlib"]
